@@ -7,39 +7,39 @@ A Java console-based program for managing student records using File Handling, C
 ✔ Add Student
 Prompts the user to enter:
 
-*Roll Number
-*Name
-*Email
-*Course
-*Marks
+* Roll Number
+* Name
+* Email
+* Course
+* Marks
 
 ✔ View All Students
-*Displays all student records using an Iterator.
+* Displays all student records using an Iterator.
 
 ✔ Search by Name
-*Case-insensitive search using partial match.
+* Case-insensitive search using partial match.
 
 ✔ Delete by Name
-*Deletes a student (first matched record) using an Iterator safely.
+* Deletes a student (first matched record) using an Iterator safely.
 
 ✔ Sort by Marks
-*Sorts student list using a Comparator (high-to-low order).
+* Sorts student list using a Comparator (high-to-low order).
 
 💾 File Handling (Required in Assignment)
 The system uses:
 
 1. BufferedReader / BufferedWriter
-*Reads existing student records from students.txt
-*Saves updated records on exit
+* Reads existing student records from students.txt
+* Saves updated records on exit
 
 3. File Class
 Shows:
 
-*Absolute path
-*File length in bytes
+* Absolute path
+* File length in bytes
 
 3. RandomAccessFile
-*Reads one random record from the file to demonstrate pointer-based access (as required).
+* Reads one random record from the file to demonstrate pointer-based access (as required).
 
 🧰 Collections & OOP Features
 
